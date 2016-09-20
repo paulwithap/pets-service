@@ -16,9 +16,6 @@ service: pets-service # NOTE: update this with your service name
 provider:
   name: aws
   runtime: nodejs4.3
-
-# you can overwrite defaults here
-defaults:
   stage: dev
   region: us-west-2
 
